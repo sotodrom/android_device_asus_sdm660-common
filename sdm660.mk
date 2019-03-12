@@ -491,7 +491,8 @@ PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
     WifiOverlay \
     wpa_supplicant \
-    wpa_supplicant.conf
+    wpa_supplicant.conf \
+    wpa_cli
 
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
