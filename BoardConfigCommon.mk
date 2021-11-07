@@ -254,9 +254,6 @@ SELINUX_IGNORE_NEVERALLOWS := true
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(COMMON_PATH)
 
-# Treble
-BOARD_VNDK_VERSION := current
-
 # Vendor Security patch level
 VENDOR_SECURITY_PATCH := 2020-12-05
 
