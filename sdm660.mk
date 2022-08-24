@@ -6,6 +6,7 @@
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/asus/sdm660-common/sdm660-common-vendor.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
 PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
 
