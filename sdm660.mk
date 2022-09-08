@@ -230,6 +230,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
  PRODUCT_PACKAGES += \
      vendor_bt_firmware_mountpoint \
      vendor_dsp_mountpoint \
