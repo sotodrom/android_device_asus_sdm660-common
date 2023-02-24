@@ -268,6 +268,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml
 
 PRODUCT_PACKAGES += \
+    libcodec2_hidl@1.2.vendor \
+    libcodec2_soft_common.vendor \
+    libcodec2_vndk.vendor \
+    libgui_vendor \
+    libsfplugin_ccodec_utils.vendor \
     libcodec2_soft_aacdec \
     libcodec2_soft_aacenc \
     libcodec2_soft_amrnbdec \
