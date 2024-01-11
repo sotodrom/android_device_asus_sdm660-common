@@ -13,6 +13,9 @@ PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
 # Default is nosdcard, S/W button enabled in resource
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# Common Tree Path
+COMMON_PATH := device/asus/sdm660-common
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
@@ -434,6 +437,9 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client
+
+QCOM_SOONG_NAMESPACE := \
+    $(COMMON_PATH)/qcom-caf
 
 # Telephony
 PRODUCT_PACKAGES += \
