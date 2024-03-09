@@ -238,10 +238,10 @@ vendor/lib/vendor.qti.hardware.fm@1.0.so|d1c35853966025c6a72c20da1c2d336bba017dd
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|f3d0cd85c9e0a88eafacbcdeff6d4e2b109b95f9
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|2eac8b243af9f225b0c68987b2b1844df9660e84
 
-# Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+# Gatekeeper QTI - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|73bb4f63cd79ad30341c0e27c951ec771973401a
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|83663e2fb647a8203dcfb34cf83b62dcc0e890e1
 
 # GPS - from SLD_sprout 11-RKQ1.210607.001-00WW_3_490-release-keys
 vendor/bin/garden_app|33936daa11e37a2e9d7cc8a6029c043bdf2a8bd5
