@@ -229,5 +229,9 @@ ro.surface_flinger.set_idle_timer_ms=9000
 # UBWC
 vendor.video.disable.ubwc=1
 
+# USB
+vendor.usb.controller=a800000.dwc3
+vendor.usb.device=a800000.ssusb
+
 # Zygote
 zygote.critical_window.minute=10
