@@ -391,7 +391,6 @@ PRODUCT_PACKAGES += \
 
 # Radio
 PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full \
     librmnetctl \
     android.hardware.radio@1.5.vendor \
     android.hardware.radio.config@1.2 \
@@ -503,8 +502,8 @@ PRODUCT_PACKAGES += \
 # FIXME: master: compat for libprotobuf
 # See https://android-review.googlesource.com/c/platform/prebuilts/vndk/v28/+/1109518
 PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full-vendorcompat \
-    libprotobuf-cpp-lite-vendorcompat
+    libprotobuf-cpp-full-3.9.1-vendorcompat \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat
 
 # VR
 PRODUCT_PACKAGES += \
