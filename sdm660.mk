@@ -80,6 +80,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     android.hardware.camera.provider@2.5 \
     android.hardware.camera.provider@2.6 \
+    libpng.vendor:32 \
     vendor.qti.hardware.camera.device@1.0
 
 PRODUCT_PACKAGES += \
@@ -195,6 +196,7 @@ PRODUCT_PACKAGES += \
 
 # HIDL
 PRODUCT_PACKAGES += \
+    libhidlmemory.vendor:64 \
     libhidltransport \
     libhidltransport.vendor \
     libhwbinder \
@@ -368,8 +370,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-3.9.1-vendorcompat \
     libprotobuf-cpp-lite-3.9.1-vendorcompat \
-    librmnetctl \
-    libsqlite.vendor \
     libsysutils.vendor \
     android.hardware.radio@1.5.vendor \
     android.hardware.radio.config@1.2 \
@@ -378,7 +378,10 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.1 \
     android.hardware.secure_element@1.2 \
     android.hardware.secure_element@1.1.vendor \
-    android.hardware.secure_element@1.2.vendor
+    android.hardware.secure_element@1.2.vendor \
+    libnetutils.vendor \
+    librmnetctl \
+    libsqlite.vendor:64
 
 # Recovery
 PRODUCT_PACKAGES += \
@@ -418,6 +421,7 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     android.hardware.sensors@1.0-service \
     android.frameworks.sensorservice@1.0.vendor
+    libpower.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
@@ -434,6 +438,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml \
+    libion.vendor \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \
