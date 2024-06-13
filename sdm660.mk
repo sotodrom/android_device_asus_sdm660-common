@@ -91,7 +91,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0
 
 PRODUCT_PACKAGES += \
-    camera.sdm660
+    camera.sdm660 \
+    liblz4.vendor \
+    libutilscallstack.vendor \
+    libpng.vendor:32
 
 # Cgroup and task_profiles
 PRODUCT_COPY_FILES += \
@@ -154,7 +157,9 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.1.vendor \
     android.hardware.drm@1.2.vendor \
     android.hardware.drm@1.3.vendor \
-    android.hardware.drm-service.clearkey
+    android.hardware.drm-service.clearkey \
+    libunwindstack.vendor \
+    libhidlmemory.vendor:64
 
 # Fingerprint
 PRODUCT_PACKAGES += \
@@ -173,7 +178,8 @@ PRODUCT_PACKAGES += \
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper@1.0.vendor
+    android.hardware.gatekeeper@1.0.vendor \
+    libion.vendor
 
 # GPS
 PRODUCT_PACKAGES += \
@@ -187,6 +193,7 @@ PRODUCT_PACKAGES += \
     libgps.utils \
     liblocation_api \
     libsensorndkbridge \
+    libcurl.vendor \
     libwifi-hal-ctrl
 
 PRODUCT_PACKAGES += \
@@ -268,7 +275,8 @@ PRODUCT_COPY_FILES += \
 
 # Network
 PRODUCT_PACKAGES += \
-    android.system.net.netd@1.1.vendor
+    android.system.net.netd@1.1.vendor \
+    libnetutils.vendor
 
 # NFC
 PRODUCT_COPY_FILES += \
@@ -379,6 +387,8 @@ PRODUCT_COPY_FILES += \
 
 # QMI
 PRODUCT_PACKAGES += \
+    libcrypto_utils.vendor \
+    libjsoncpp.vendor \
     libjson \
     libqti_vndfwk_detect.vendor \
     libvndfwk_detect_jni.qti \
@@ -393,7 +403,6 @@ PRODUCT_PACKAGES += \
 
 # Radio
 PRODUCT_PACKAGES += \
-    librmnetctl \
     android.hardware.radio@1.5.vendor \
     android.hardware.radio.config@1.2 \
     android.hardware.radio.config@1.2.vendor \
@@ -401,7 +410,10 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.1 \
     android.hardware.secure_element@1.2 \
     android.hardware.secure_element@1.1.vendor \
-    android.hardware.secure_element@1.2.vendor
+    android.hardware.secure_element@1.2.vendor \
+    librmnetctl \
+    libsqlite.vendor:64 \
+    libsysutils.vendor
 
 PRODUCT_PACKAGES += \
     android.hardware.radio.c_shim@1.0 \
@@ -450,7 +462,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     android.hardware.sensors@1.0-service \
-    android.frameworks.sensorservice@1.0.vendor
+    android.frameworks.sensorservice@1.0.vendor \
+    libpower.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
