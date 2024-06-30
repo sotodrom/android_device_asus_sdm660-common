@@ -90,7 +90,7 @@ vendor/lib/libbluetooth_audio_session_qti_2_1.so|d9f83086774e22c8a09b02fa87850fa
 vendor/bin/hvdcp_opti|0af1d3a59fd10acd7a614662c341421d9267014c
 
 # CNE - from Honeywell hon660-user-12-94.00.03-0037-release-keys
-vendor/app/CneApp/CneApp.apk|45c0533ea8e647fb8fc9791fe8782898654eeceb
+vendor/app/CneApp/CneApp.apk;REQUIRED=CneApp.libvndfwk_detect_jni.qti_symlink|45c0533ea8e647fb8fc9791fe8782898654eeceb
 vendor/app/IWlanService/IWlanService.apk|a66ef7d4bf981b2b979ad6306773a8bc41e0d199
 vendor/bin/cnd|8321983fe0cd516097f463dee8f3bee890eacf4e
 vendor/etc/cne/mwqem.conf|c42ad47b34b511075e5dfb9047d32f881fe0c159
