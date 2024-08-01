@@ -370,7 +370,6 @@ vendor/lib/libsmwrapper.so|efc8c8b61d5947a88f2a1f52e6c6d50bac78a61e
 vendor/lib/libAlacSwDec.so|0eae95f42049a7ed39137cbba8e735ec1e275282
 vendor/lib/libApeSwDec.so|139c1533a9a48b585e7b2a13488d712ab8cb495d
 vendor/lib/libdsd2pcm.so|110c444d2c0a73b41bae853e2747dd0cdeb617f8
-vendor/lib/libFlacSwDec.so|81dccb2ffe37b83ffc47805354a55dd67eb1f23f
 vendor/lib/libI420colorconvert.so|f1955555897c8f2ccc2a6c28c3ac2f13406b830e
 vendor/lib/libmm-color-convertor.so|720d6081c20fe7024632fb55654134b18887d002
 vendor/lib/libOmxAacDec.so|447e31d9657c0770c8c34f810e5869f1da81882a
@@ -379,7 +378,6 @@ vendor/lib/libOmxAlacDecSw.so|9020b5d4372db495e0069ae72f6fb0c36941c6d1
 vendor/lib/libOmxAmrDec.so|1850e7557406ca38fe2c1c89cd3faa75a16899f8
 vendor/lib/libOmxAmrwbplusDec.so|308574e2a040d6c7df71d80ab26eeaf601bf53aa
 vendor/lib/libOmxApeDec.so|6e0d27f5de8baa0102478bd1bd5dd9365c382e70
-vendor/lib/libOmxApeDecSw.so|6c888102bcb41660b33ae5e9e3d6a871321d4f38
 vendor/lib/libOmxDsdDec.so|e6be2d96d0bde2abcd44f9c7595b294b5f2c41a9
 vendor/lib/libOmxEvrcDec.so|3e1a2ed3f350cf3fc102ffa01bb2ac35be90e83d
 vendor/lib/libOmxG711Dec.so|f47740d8612b46c1072ab7987631c73bb7608f80
