@@ -197,6 +197,10 @@ PRODUCT_PACKAGES += \
     libunwindstack.vendor \
     libhidlmemory.vendor:64
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    liblzma.vendor
+
 # FM
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl
