@@ -632,11 +632,11 @@ vendor/lib/sensors.native.so
 vendor/lib64/hw/sensors.sdm660_64.so
 vendor/lib64/sensors.native.so
 
-# Sensors - from Zebra/helios/helios:13/13-22-18.00-TG-U02-STD-HEL-04/84:user/release-keys
-vendor/bin/sensors.qti|362f2e678dfb63edf247f79544e2704794c8a470
-vendor/lib/libsensor_reg.so|8b1e757e0fbdfd740c6b6513473902d36d2235bc
-vendor/lib/libsensor1.so|084f1bb499dfca2b2a23fd19d4ff4c45dab26293
-vendor/lib/sensors.ssc.so|af64cf583a08ea8386516f12bd25a27b18867b26
+# Sensors - from Zebra/helios/helios:13/13-29-10.00-TG-U05-STD-HEL-04/135:user/release-keys
+vendor/bin/sensors.qti|aa89d380098a5ce9791258e553ab3aadb4c727da
+vendor/lib/libsensor_reg.so|d046a6610099e0e0c5dd2d5ee53d474204b5fc98
+vendor/lib/libsensor1.so|41b897cc01663727d28c48a62b090d63c6b69e10
+vendor/lib/sensors.ssc.so|2e32c8ecf602e7864abc5182c4c422b938632577
 vendor/lib64/libsensor_reg.so|48241c0e1c64015710b91146b6a9da3fbfb48f53
 vendor/lib64/libsensor1.so|2da5e1b7a8f91c03ded3060554a9229a083fc783
 vendor/lib64/sensors.ssc.so|7a55a88858acd73fa9a44a99ed49e86baefa47ca
