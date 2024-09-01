@@ -347,16 +347,18 @@ vendor/lib/hw/vulkan.adreno.so|7bc74a78ad5dcceed492a1a71c9f4792a9871c19
 vendor/lib64/hw/vulkan.adreno.so|c3c0c344724bc1810f10b094b7f6c496ad2c86c5
 
 # Keymaster
-vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
 vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
-vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib/libkeymasterdeviceutils.so
-vendor/lib/libkeymasterprovision.so
-vendor/lib/libkeymasterutils.so
-vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib64/libkeymasterdeviceutils.so
-vendor/lib64/libkeymasterprovision.so
-vendor/lib64/libkeymasterutils.so
+
+# Keymaster - from Zebra/helios/helios:13/13-29-10.00-TG-U05-STD-HEL-04/135:user/release-keys
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|549af6e45e14fcca052c3b4a41daad56ad402733
+vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so|424aa78da72990552acd98fba35e3c62399d7b54
+vendor/lib/libkeymasterdeviceutils.so|5de829f722aac202b57cc90a25ed0e68dd100911
+vendor/lib/libkeymasterprovision.so|335e15a1fc40e06751daa201d9cded80faed6486
+vendor/lib/libkeymasterutils.so|d124c8e756223c85e0e5cb978ded04d34c268a02
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|f569ab512639601cbd1d5bc74b432ad8258bfb22
+vendor/lib64/libkeymasterdeviceutils.so|3c3e460fd305cb80c1b55619ecc764ce31de2374
+vendor/lib64/libkeymasterprovision.so|b24d82a37bc30875faf3149c0ecfd15a0528cd15
+vendor/lib64/libkeymasterutils.so|395f755efdfa2d4a945a89cee307996ab86222a6
 
 # Listen - from Honeywell hon660-user-12-94.00.03-0037-release-keys
 vendor/lib/libadpcmdec.so|50af16a56e7741978401b799a84e5ff43dedbfe0
