@@ -27,7 +27,7 @@ setup_vendor "${DEVICE_COMMON}" "${VENDOR_COMMON:-$VENDOR}" "${ANDROID_ROOT}" tr
 write_headers "X00TD X01BD"
 
 # The standard common blobs
-write_makefiles "${MY_DIR}/proprietary-files.txt" true
+write_makefiles "${MY_DIR}/proprietary-files.txt"
 
 # Finish
 write_footers
