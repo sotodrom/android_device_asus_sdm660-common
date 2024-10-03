@@ -34,3 +34,7 @@ ro.hwversion          u:object_r:build_prop:s0
 
 # Thermal engine
 vendor.thermal.config                   u:object_r:vendor_thermal_prop:s0
+
+# Sensors
+sensors.light.loopback                        u:object_r:asus_sensors_prop:s0
+sensors.proxymity.loopback                    u:object_r:asus_sensors_prop:s0
