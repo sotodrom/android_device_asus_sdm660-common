@@ -196,7 +196,7 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
     libunwindstack.vendor \
     libhidlmemory.vendor:64 \
-    libcrypto_shim
+    libcrypto_shim.vendor
 
 # Fingerprint
 PRODUCT_PACKAGES += \
