@@ -35,6 +35,7 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default \
     libaudio-resampler \
+    libaudioroute.vendor \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
@@ -99,12 +100,16 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     android.hardware.camera.provider@2.5 \
-    vendor.qti.hardware.camera.device@1.0 \
-    vendor.qti.hardware.camera.device@1.0.vendor \
+    libcamera_metadata.vendor \
+    libexif.vendor \
+    libjpeg.vendor \
+    libyuv.vendor \
     liblz4.vendor \
     libutilscallstack.vendor \
     libpng.vendor:32 \
-    libxml2
+    libxml2 \
+    vendor.qti.hardware.camera.device@1.0 \
+    vendor.qti.hardware.camera.device@1.0.vendor
 
 # Cgroup and task_profiles
 PRODUCT_COPY_FILES += \
@@ -529,6 +534,7 @@ PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
     librmnetctl \
     libsqlite.vendor:64 \
+    libssl.vendor \
     libsysutils.vendor
 
 PRODUCT_PACKAGES += \
@@ -650,6 +656,7 @@ PRODUCT_PACKAGES += \
     hostapd \
     hostapd_cli \
     libwifi-hal-qcom \
+    libwifi-system-iface.vendor \
     wificond \
     libwpa_client \
     WifiOverlay \
@@ -668,7 +675,8 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     android.media.audio.common.types-V2-cpp \
-    libnl
+    libnl \
+    libprocessgroup.vendor
 
 # DeviceSettings
 PRODUCT_PACKAGES += \
