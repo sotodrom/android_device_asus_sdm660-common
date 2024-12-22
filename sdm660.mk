@@ -199,10 +199,6 @@ PRODUCT_PACKAGES += \
     libhidlmemory.vendor:64 \
     libcrypto_shim.vendor
 
-# Fingerprint
-PRODUCT_PACKAGES += \
-    liblzma.vendor
-
 # FM
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl
