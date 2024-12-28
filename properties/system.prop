@@ -111,9 +111,6 @@ persist.arm64.memtag.system_server=off
 # Time
 persist.timed.enable=true
 
-# VNDK
-ro.vndk.version=current
-
 # WiFi Display
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
