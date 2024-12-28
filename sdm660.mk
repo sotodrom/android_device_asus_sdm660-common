@@ -6,11 +6,15 @@
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/asus/sdm660-common/sdm660-common-vendor.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
 PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
+
+# UFFD GC
+OVERRIDE_ENABLE_UFFD_GC := false
 
 # Default is nosdcard, S/W button enabled in resource
 PRODUCT_CHARACTERISTICS := nosdcard
@@ -197,7 +201,8 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
     libunwindstack.vendor \
     libhidlmemory.vendor:64 \
-    libcrypto_shim.vendor
+    libcrypto_shim.vendor \
+    libcrypto-v33
 
 # FM
 PRODUCT_PACKAGES += \
@@ -616,6 +621,7 @@ PRODUCT_PACKAGES += \
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 27
+BOARD_SHIPPING_API_LEVEL := 30
 
 # USB
 PRODUCT_PACKAGES += \
