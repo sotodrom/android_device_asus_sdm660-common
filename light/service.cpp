@@ -6,7 +6,7 @@
 
 #include "Lights.h"
 
-#define LOG_TAG "android.hardware.light-service.sdm660"
+#define LOG_TAG "android.hardware.light-service.xiaomi_mido"
 
 #include <android-base/logging.h>
 #include <android/binder_manager.h>
