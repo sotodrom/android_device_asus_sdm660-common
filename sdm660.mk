@@ -22,10 +22,6 @@ PRODUCT_CHARACTERISTICS := nosdcard
 # Common Tree Path
 COMMON_PATH := device/asus/sdm660-common
 
-# AdGuard CA Root Certificate 
-PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/rootdir/etc/security/cacerts/0f4ed297.0:$(TARGET_COPY_OUT_SYSTEM)/etc/security/cacerts/0f4ed297.0
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.1-impl \
