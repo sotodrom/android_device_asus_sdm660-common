@@ -3,3 +3,4 @@ type public_adsprpcd_file, file_type;
 type proc_touchpanel, fs_type, proc_type;
 type sysfs_call_status, sysfs_type, fs_type;
 type sysfs_iio_devices, sysfs_type, fs_type;
+type sysfs_torch, fs_type, sysfs_type;
