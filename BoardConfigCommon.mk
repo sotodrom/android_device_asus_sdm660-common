@@ -223,6 +223,7 @@ TARGET_BOARD_PLATFORM := sdm660
 
 # Power
 TARGET_USES_INTERACTION_BOOST := true
+TARGET_TAP_TO_WAKE_NODE := "/sys/kernel/touchpanel/dclicknode"
 
 # Properties
 TARGET_ODM_PROP += $(COMMON_PATH)/properties/odm.prop
@@ -248,7 +249,6 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # Sepolicy
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
-
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
 SELINUX_IGNORE_NEVERALLOWS := true
