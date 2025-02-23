@@ -69,13 +69,6 @@ persist.dbg.ims_volte_enable=1
 ro.vendor.qti.sys.fw.bg_apps_limit=32
 vendor.perf.gestureflingboost.enable=true
 
-# Infinity X properties
-ro.infinity.soc=Qualcomm® Snapdragon™ 636
-ro.infinity.battery=5000 mAh
-ro.infinity.display=1080 x 2160 pixels, 60Hz
-ro.infinity.camera=13MP/5MP/8MP + 16MP/5MP/16MP
-ro.product.marketname=Asus Zenfone Max Pro M1
-
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 vidc.enc.target_support_bframe=1
