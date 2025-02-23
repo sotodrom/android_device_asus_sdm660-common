@@ -130,6 +130,7 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 # Graphics
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
+vendor.gralloc.disable_ahardware_buffer=1
 
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
