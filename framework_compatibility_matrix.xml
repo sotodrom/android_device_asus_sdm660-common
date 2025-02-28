@@ -464,4 +464,12 @@
         <instance>imsrtpservice</instance>
     </interface>
 </hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.usb.gadget</name>
+    <version>1</version>
+    <interface>
+        <name>IUsbGadget</name>
+        <instance>default</instance>
+    </interface>
+</hal>
 </compatibility-matrix>
