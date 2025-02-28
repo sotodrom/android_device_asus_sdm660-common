@@ -37,6 +37,7 @@ persist.dirac.acs.storeSettings=1
 debug.hwui.skia_atrace_enabled=false
 
 # Display
+persist.hwc.mdpcomp.enable=true
 vendor.display.enable_default_color_mode=1
 vendor.gralloc.enable_fb_ubwc=1
 vendor.display.disable_skip_validate=1
