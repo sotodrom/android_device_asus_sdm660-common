@@ -546,7 +546,8 @@ PRODUCT_PACKAGES += \
     init.asus_parts.rc \
     init.recovery.qcom.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    usb_compositions.conf
 
 # Ramdisk-USB
 PRODUCT_PACKAGES += \
