@@ -153,7 +153,6 @@
         <item>"/system/framework/services.jar"</item>
         <item>"/apex/com.android.art/javalib/core-oj.jar"</item>
         <item>"/apex/com.android.art/javalib/core-libart.jar"</item>
-        <item>"/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk"</item>
         <item>"/system/bin/surfaceflinger"</item>
     </string-array>
 
@@ -338,7 +337,7 @@
     </integer-array>
 
     <!-- Whether of not wallpaper scrolling should be on or not. It may cuz lag in some low-end devices -->
-     <item name="config_wallpaperMaxScale" format="float" type="dimen">1.00</item>
+     <item name="config_wallpaperMaxScale" format="float" type="dimen">1</item>
 
     <!-- See AmbientSensor.AmbientColorTemperatureSensor.
          The ambient color temperature sensor name. -->
@@ -427,15 +426,5 @@
          The duplication is necessary, because this information is used before the features are
          available to the system.-->
     <bool name="config_freeformWindowManagement">true</bool>
-    
-    <!-- Whether this device prefers to show snapshot or splash screen on back predict target.
-         When set true, there will create windowless starting surface for the preview target, so it
-         won't affect activity's lifecycle. This should only be disabled on low-ram device. -->
-    <bool name="config_predictShowStartingSurface">false</bool>
-    
-    <!-- Whether or not the monitoring on the apps' background battery drain is enabled -->
-    <bool name="config_bg_current_drain_monitor_enabled">true</bool>
 
-    <!-- If this is true, the screen will fade off. -->
-    <bool name="config_animateScreenLights">true</bool>
 </resources>
