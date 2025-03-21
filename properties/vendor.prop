@@ -116,10 +116,6 @@ persist.vendor.dpmhalservice.enable=1
 # DRM
 drm.service.enabled=true
 
-# Fling Velocity
-ro.min.fling_velocity=160
-ro.max.fling_velocity=20000
-
 # FM
 vendor.fm.a2dp.conc.disabled=false
 
@@ -129,9 +125,6 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 # Graphics
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
-
-# Media
-media.stagefright.thumbnail.prefer_hw_codecs=true
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
@@ -186,9 +179,6 @@ ro.surface_flinger.set_touch_timer_ms=5000
 
 # UBWC
 vendor.video.disable.ubwc=1
-
-# WiFi
-wifi.aware.interface=wifi-aware0
 
 # Zygote
 zygote.critical_window.minute=10

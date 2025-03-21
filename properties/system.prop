@@ -45,6 +45,10 @@ vendor.display.disable_skip_validate=1
 # Filesystem
 fs_mgr.overlayfs.prefer_cache_backing_storage=true
 
+# Fling Velocity
+ro.min.fling_velocity=160
+ro.max.fling_velocity=20000
+
 # FM
 vendor.hw.fm.init=0
 
@@ -68,6 +72,7 @@ persist.dbg.ims_volte_enable=1
 
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+media.stagefright.thumbnail.prefer_hw_codecs=true
 vidc.enc.target_support_bframe=1
 vendor.vidc.enc.disable_bframes=1
 vendor.vidc.dec.enable.downscalar=1
@@ -80,7 +85,7 @@ ro.netflix.bsp_rev=Q660-13149-1
 ro.nfc.port=I2C
 
 # NTP Server
-persist.backup.ntpServer="0.pool.ntp.org"
+persist.backup.ntpServer=0.pool.ntp.org
 
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
