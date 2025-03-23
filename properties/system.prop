@@ -70,6 +70,13 @@ sdm.debug.disable_skip_validate=1
 # IMS
 persist.dbg.ims_volte_enable=1
 
+# Infinity X properties
+ro.infinity.soc=Qualcomm® Snapdragon™ 636
+ro.infinity.battery=5000 mAh
+ro.infinity.display=1080 x 2160 pixels, 60Hz
+ro.infinity.camera=16MP + 5MP + 16MP
+ro.product.marketname=Asus Zenfone Max Pro M1
+
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 media.stagefright.thumbnail.prefer_hw_codecs=true
