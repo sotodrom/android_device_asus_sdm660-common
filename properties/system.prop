@@ -42,9 +42,6 @@ vendor.display.enable_default_color_mode=1
 vendor.gralloc.enable_fb_ubwc=1
 vendor.display.disable_skip_validate=1
 
-# Filesystem
-fs_mgr.overlayfs.prefer_cache_backing_storage=true
-
 # Fling Velocity
 ro.min.fling_velocity=160
 ro.max.fling_velocity=20000
@@ -71,7 +68,7 @@ sdm.debug.disable_skip_validate=1
 persist.dbg.ims_volte_enable=1
 
 # Infinity X properties
-ro.infinity.soc=Qualcomm® Snapdragon™ 636
+ro.infinity.soc=Qualcomm® Snapdragon™ 660
 ro.infinity.battery=5000 mAh
 ro.infinity.display=1080 x 2160 pixels, 60Hz
 ro.infinity.camera=16MP + 5MP + 16MP
@@ -103,6 +100,7 @@ persist.sys.binary_xml=false
 # RIL
 DEVICE_PROVISIONED=1
 persist.radio.VT_CAM_INTERFACE=2
+persist.vendor.qti.telephony.vt_cam_interface=2
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
 

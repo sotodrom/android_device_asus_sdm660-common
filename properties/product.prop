@@ -15,14 +15,8 @@ bluetooth.profile.pan.panu.enabled=true
 bluetooth.profile.pbap.server.enabled=true
 bluetooth.profile.sap.server.enabled=true
 
-# EGL - Blobcache configuration
-ro.egl.blobcache.multifile=true
-ro.egl.blobcache.multifile_limit=33554432
-
 # Enable debugging
 persist.sys.usb.config=mtp,adb
-ro.adb.secure=0
-ro.debuggable=1
 
 # LMKD
 ro.config.low_ram=false
