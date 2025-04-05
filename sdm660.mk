@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
--include vendor/lineage-priv/keys/keys.mk
+-include vendor/aosp/signing/keys/keys.mk
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/asus/sdm660-common/sdm660-common-vendor.mk)
