@@ -158,6 +158,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.mapper@1.0.vendor \
     vendor.qti.hardware.display.mapper@1.1.vendor \
+    vendor.qti.hardware.display.mapper@2.0.vendor \
     vendor.qti.hardware.memtrack-service \
     vendor.display.config@1.0.vendor \
     vendor.display.config@2.0
@@ -665,5 +666,5 @@ PRODUCT_PACKAGES += \
     libprocessgroup.vendor
 
 # DeviceSettings
-PRODUCT_PACKAGES += \
-   DeviceSettings
+#PRODUCT_PACKAGES += \
+#   DeviceSettings
