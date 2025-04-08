@@ -158,7 +158,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.mapper@1.0.vendor \
     vendor.qti.hardware.display.mapper@1.1.vendor \
-    vendor.qti.hardware.display.mapper@2.0.vendor \
     vendor.qti.hardware.memtrack-service \
     vendor.display.config@1.0.vendor \
     vendor.display.config@2.0
@@ -377,7 +376,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor \
     com.android.nfc_extras \
-    NfcNci \
     SecureElement \
     Tag
 
@@ -556,8 +554,7 @@ PRODUCT_PACKAGES += \
     init.asus_parts.rc \
     init.recovery.qcom.rc \
     init.target.rc \
-    ueventd.qcom.rc \
-    usb_compositions.conf
+    ueventd.qcom.rc
 
 # Ramdisk-USB
 PRODUCT_PACKAGES += \
@@ -624,8 +621,7 @@ BOARD_SHIPPING_API_LEVEL := 30
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.3-service.basic \
-    android.hardware.usb.gadget-service.qti
+    android.hardware.usb@1.3-service.basic
 
 # Vibrator
 $(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.mk)
@@ -646,15 +642,13 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
     android.hardware.wifi@1.6.vendor \
     hostapd \
-    hostapd_cli \
     libwifi-hal-qcom \
     libwifi-system-iface.vendor \
     wificond \
     libwpa_client \
     WifiOverlay \
     wpa_supplicant \
-    wpa_supplicant.conf \
-    wpa_cli
+    wpa_supplicant.conf
 
 PRODUCT_PACKAGES += \
     firmware_WCNSS_qcom_cfg.ini_symlink
