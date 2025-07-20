@@ -353,6 +353,7 @@ PRODUCT_BOOT_JARS += \
 
 # Touch HAL
 PRODUCT_PACKAGES += \
+    TouchGestures \
     vendor.lineage.touch-service.asus_sdm660
 
 # USB
