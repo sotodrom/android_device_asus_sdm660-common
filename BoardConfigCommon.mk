@@ -83,11 +83,11 @@ ODM_MANIFEST_SKUS += NFC
 ODM_MANIFEST_NFC_FILES := $(COMMON_PATH)/manifest_nfc.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(COMMON_PATH):libinit_sdm660
+$(call soong_config_set,libinit,vendor_init_lib,//$(COMMON_PATH):libinit_sdm660)
 TARGET_RECOVERY_DEVICE_MODULES := libinit_sdm660
 
 # Lineage Health
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
+$(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/power_supply/battery/input_suspend)
 
 # LMKD
 TARGET_LMKD_STATS_LOG := true
@@ -149,15 +149,8 @@ PRODUCT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(COMMON_PATH)
 
-# Treble
-BOARD_VNDK_VERSION := current
-
 # Vendor Security patch level
 VENDOR_SECURITY_PATCH := 2020-12-05
-
-# Verity
-# Only needed for signing
-BOARD_AVB_ENABLE := false
 
 # WiFi
 BOARD_WLAN_DEVICE := qcwcn
