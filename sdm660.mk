@@ -161,6 +161,10 @@ PRODUCT_COPY_FILES += \
 # Kernel
 PRODUCT_ENABLE_UFFD_GC := true
 
+# Launcher
+PRODUCT_PACKAGES += \
+    SDM660NexusLauncherOverlay
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
