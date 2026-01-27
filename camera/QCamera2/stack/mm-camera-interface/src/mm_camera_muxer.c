@@ -385,10 +385,10 @@ int32_t mm_camera_muxer_close_camera(uint32_t camera_handle,
             pthread_mutex_unlock(&cam_obj->muxer_lock);
             rc = 0;
         } else {
-            rc  = mm_camera_util_set_camera_object(cam_idx, NULL);
+            rc = mm_camera_util_set_camera_object(cam_idx, NULL);
             pthread_mutex_lock(&my_obj->cam_lock);
             pthread_mutex_unlock(&cam_obj->muxer_lock);
-            rc = mm_camera_close(my_obj);
+            mm_camera_close(my_obj);
             pthread_mutex_destroy(&my_obj->cam_lock);
             free(my_obj);
             my_obj = NULL;
