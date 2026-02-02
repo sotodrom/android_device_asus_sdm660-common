@@ -1009,7 +1009,6 @@ mm_camera_buf_def_t *QCameraPostProcessor::getOfflinePPInputBuffer(
                 data_frame = src_frame->bufs[i];
             } else if (src_pStream->getMyType() == CAM_STREAM_TYPE_METADATA){
                 LOGH("Found Metada input stream");
-                src_frame->bufs[i];
             }
         }
     }
