@@ -8189,7 +8189,7 @@ static void set_audiocal(void *platform, struct str_parms *parms, char *value, i
     if (err >= 0) {
         memset(&cal, 0, sizeof(acdb_audio_cal_cfg_t));
         /* parse audio calibration keys */
-        ret = parse_audiocal_cfg(parms, &cal);
+        parse_audiocal_cfg(parms, &cal);
 
         str_parms_del(parms, AUDIO_PARAMETER_KEY_AUD_CALDATA);
         dlen = strlen(value);
