@@ -15,6 +15,7 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 # Kernel
 PRODUCT_ENABLE_UFFD_GC := false
 OVERRIDE_ENABLE_UFFD_GC := false
+PRODUCT_CHECK_PREBUILT_MAX_PAGE_SIZE := false
 
 # Default is nosdcard, S/W button enabled in resource
 PRODUCT_CHARACTERISTICS := nosdcard
@@ -81,6 +82,7 @@ PRODUCT_PACKAGES += \
 
 # Boot animation
 TARGET_BOOTANIMATION_HALF_RES := true
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
 
 # Bluetooth
 PRODUCT_PACKAGES += \
