@@ -46,6 +46,10 @@
 #include "hwc_display_external_test.h"
 #include "qd_utils.h"
 
+#ifndef PAGE_SIZE
+#define PAGE_SIZE 4096
+#endif
+
 #define __CLASS__ "HWCSession"
 
 #ifdef TARGET_MIN_KERNEL_4_14
