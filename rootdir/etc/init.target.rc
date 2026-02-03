@@ -127,7 +127,8 @@ service vendor.sensors.qti /vendor/bin/sensors.qti
 
 service vendor.pd_mapper /system/vendor/bin/pd-mapper
     class core
-    user root
+    user system
+    group system
 
 on property:vold.decrypt=trigger_restart_framework
    restart vendor.camera-provider-2-4
