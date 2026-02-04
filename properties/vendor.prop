@@ -125,8 +125,8 @@ vendor.fm.a2dp.conc.disabled=false
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
-ro.vendor.perf.scroll_opt=true
-
+persist.sys.perf.scroll_opt=true
+persist.sys.perf.scroll_opt.heavy_app=2
 # Radio
 persist.radio.multisim.config=dsds
 persist.vendor.radio.apm_sim_not_pwdn=1
