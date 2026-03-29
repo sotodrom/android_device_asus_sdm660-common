@@ -47,6 +47,7 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.qti.hardware.data.cne.internal.server@1.0',
         'vendor.qti.hardware.data.connection@1.0',
         'vendor.qti.hardware.data.connection@1.1',
+        'vendor.qti.hardware.data.dynamicdds@1.0',
         'vendor.qti.hardware.fm@1.0',
         'vendor.qti.hardware.mwqemadapter@1.0',
         'vendor.qti.imsrtpservice@3.0',
