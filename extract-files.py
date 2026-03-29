@@ -53,6 +53,10 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.qti.hardware.data.qmi@1.0',
         'vendor.qti.hardware.fm@1.0',
         'vendor.qti.hardware.mwqemadapter@1.0',
+        'vendor.qti.ims.callcapability@1.0',
+        'vendor.qti.ims.callinfo@1.0.so',
+        'vendor.qti.ims.factory@1.0.so',
+        'vendor.qti.ims.rcsconfig@1.0.so',
         'vendor.qti.imsrtpservice@3.0',
     ): lib_fixup_vendor_suffix,
 }
