@@ -1,4 +1,4 @@
-# Common proprietary files - from UL-ASUS_X01BD-WW-17.2018.2012.434-user build, unless pinned
+# Common proprietary files - from X01BD sdm660_64-user 10 QKQ1 73 release-keys, unless pinned
 
 # ADSP - from Cat S62Pro sdm660_64-user 11 RKQ1.210406.002 1.015.00
 vendor/bin/adsprpcd|5e246a6f5d2dca27e29b233a17e4673532191b95
