@@ -1,0 +1,11 @@
+[
+  {
+    "remote": "gitlab",
+    "repository": "NoPrincessHere/proprietary_vendor_asus_sdm660-common",
+    "target_path": "vendor/asus/sdm660-common"
+  },
+  {
+    "repository": "PixelOS-Devices/android_kernel_asus_sdm660",
+    "target_path": "kernel/asus/sdm660"
+  }
+]
